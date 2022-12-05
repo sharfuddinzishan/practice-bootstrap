@@ -8,7 +8,7 @@ const Alert = () => {
                     <h1>Welcome To Programming</h1>
                     <p><a href="http://www.google.com" className='alert-link'>Javascript</a> is an asynchronous non-blocking single threaded language</p>
                 </div>
-                <button className="btn-close" data-bs-dismiss="alert"></button>
+                <button className="btn-close btn-close-white" data-bs-dismiss="alert"></button>
             </div>
             {/* <div className="alert alert-info alert-dismissible alert show">
                 <div className="alert-header">
