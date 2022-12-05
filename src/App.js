@@ -7,6 +7,7 @@ import Alert from './Pages/Alert/Alert';
 import Badge from './Pages/Badge/Badge';
 import Button from './Pages/Button/Button';
 import Dropdown from './Pages/Dropdown/Dropdown';
+import Collapse from './Pages/Collapse/Collapse';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Route path='/badge' element={<Badge></Badge>}></Route>
       <Route path='/button' element={<Button></Button>}></Route>
       <Route path='/dropdown' element={<Dropdown></Dropdown>}></Route>
+      <Route path='/collapse' element={<Collapse></Collapse>}></Route>
     </Routes>
     </>
   );
