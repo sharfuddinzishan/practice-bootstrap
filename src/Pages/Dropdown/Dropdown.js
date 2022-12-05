@@ -11,9 +11,9 @@ const Dropdown = () => {
                     Dept
                 </button>
                 <ul className="dropdown-menu">
-                    <li><a className="dropdown-item" href="">CSE</a></li>
-                    <li><a className="dropdown-item" href="">BBA</a></li>
-                    <li><a className="dropdown-item" href="">EEE</a></li>
+                    <li><a className="dropdown-item" href="https://www.google.com"="">CSE</a></li>
+                    <li><a className="dropdown-item" href="https://www.google.com"="">BBA</a></li>
+                    <li><a className="dropdown-item" href="https://www.google.com"="">EEE</a></li>
                 </ul>
             </div>
             {/* With dropdown class  */}
@@ -24,20 +24,20 @@ const Dropdown = () => {
                     Team
                 </button>
                 <ul className="dropdown-menu">
-                    <li><a className="dropdown-item" href="">Brazil</a></li>
-                    <li><a className="dropdown-item" href="">Argentina</a></li>
-                    <li><a className="dropdown-item" href="">France</a></li>
+                    <li><a className="dropdown-item" href="https://www.google.com"="">Brazil</a></li>
+                    <li><a className="dropdown-item" href="https://www.google.com"="">Argentina</a></li>
+                    <li><a className="dropdown-item" href="https://www.google.com"="">France</a></li>
                 </ul>
             </div>
             {/* a link as buttton  */}
             <div className="dropdown">
                 <a className="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown">List</a>
                 <ul className="dropdown-menu dropdown-menu-dark">
-                    <li><a className="dropdown-item" href="">Rice</a></li>
-                    <li><a className="dropdown-item" href="">Daal</a></li>
+                    <li><a className="dropdown-item" href="https://www.google.com"="">Rice</a></li>
+                    <li><a className="dropdown-item" href="https://www.google.com"="">Daal</a></li>
                     <hr />
                     <li><hr className="dropdown-divider"></hr></li>
-                    <li><a className="dropdown-item" href="">Beef</a></li>
+                    <li><a className="dropdown-item" href="https://www.google.com"="">Beef</a></li>
                 </ul>
             </div>
 
