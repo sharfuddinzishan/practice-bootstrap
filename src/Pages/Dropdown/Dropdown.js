@@ -24,14 +24,14 @@ const Dropdown = () => {
                     Team
                 </button>
                 <ul className="dropdown-menu">
-                    <li><a className="dropdown-item" href="">Brazil</a></li>
-                    <li><a className="dropdown-item" href="">Argentina</a></li>
-                    <li><a className="dropdown-item" href="">France</a></li>
+                    <li><a className="dropdown-item" href="https://www.google.com">Brazil</a></li>
+                    <li><a className="dropdown-item" href="https://www.google.com">Argentina</a></li>
+                    <li><a className="dropdown-item" href="https://www.google.com">France</a></li>
                 </ul>
             </div>
             {/* a link as buttton  */}
             <div className="dropdown">
-                <a className="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown">List</a>
+                <button className="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown">List</button>
                 <ul className="dropdown-menu dropdown-menu-dark">
                     <li><a className="dropdown-item" href="https://www.google.com">Rice</a></li>
                     <li><a className="dropdown-item" href="https://www.google.com">Daal</a></li>

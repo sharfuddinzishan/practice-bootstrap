@@ -8,8 +8,8 @@ const Button = () => {
             <br />
             <button className="btn btn-outline-primary btn-lg">Submit</button>
             <br />
-            <a className='btn btn-warning text-secondary fs-5' href="https://www.google.com" target={"_blank"}>Link</a>
-            <a className='btn btn-warning text-secondary fs-5 disabled' href="https://www.google.com" target="_blank">Disabled</a>
+            <a className="btn btn-warning text-secondary fs-5" href="https://www.google.com" target="_blank" rel="noreferrer">Link</a>
+            <a className="btn btn-warning text-secondary fs-5 disabled" href="https://www.google.com" target="_blank" rel="noreferrer">Disabled</a>
             <hr />
 
             <div className="d-grid gap-2">
