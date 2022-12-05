@@ -8,8 +8,8 @@ const Button = () => {
             <br />
             <button className="btn btn-outline-primary btn-lg">Submit</button>
             <br />
-            <a className='btn btn-warning text-secondary fs-5' href="https://www.google.com"="www.facebook.com" target={"_blank"}>Link</a>
-            <a className='btn btn-warning text-secondary fs-5 disabled' href="https://www.google.com"="www.facebook.com" target="_blank">Disabled</a>
+            <a className='btn btn-warning text-secondary fs-5' href="https://www.google.com" target={"_blank"}>Link</a>
+            <a className='btn btn-warning text-secondary fs-5 disabled' href="https://www.google.com" target="_blank">Disabled</a>
             <hr />
 
             <div className="d-grid gap-2">
@@ -73,10 +73,10 @@ const Button = () => {
                 >E</button>
                 <ul className="dropdown-menu">
                     <li>
-                        <a href="https://www.google.com"="" className="dropdown-item">AA</a>
+                        <a href="https://www.google.com" className="dropdown-item">AA</a>
                     </li>
                     <li>
-                        <a href="https://www.google.com"="" className="dropdown-item">BB</a>
+                        <a href="https://www.google.com" className="dropdown-item">BB</a>
                     </li>
                 </ul>
                 </div>
